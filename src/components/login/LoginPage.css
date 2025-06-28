@@ -1,0 +1,41 @@
+.page-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.login-box {
+  width: 40vw;
+  height: 40vw;
+  max-width: 650px;
+  background-color: var(--foreground);
+  color: var(--background);
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-direction: column;
+}
+
+.Title{
+    color: var(--background);
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.Bottom{
+    color: var(--background);
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
