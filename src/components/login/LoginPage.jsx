@@ -8,7 +8,8 @@ export default function LoginPage() {
             Login
         </div>
         <div className="Bottom">
-            BottomPage
+            <button className="login">Log In</button>
+            <button className="signup">Sign Up</button>
         </div>
       </div>
     </div>

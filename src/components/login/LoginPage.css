@@ -3,15 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
+  background-color: var(--foreground);
 }
 
 .login-box {
   width: 40vw;
   height: 40vw;
   max-width: 650px;
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: gray;
   font-size: 24px;
   font-weight: bold;
   border-radius: 10px;
@@ -19,11 +18,13 @@
   justify-content: center;
   align-items: top;
   flex-direction: column;
+
+  border-radius: 10px;
 }
 
 .Title{
-    color: var(--background);
-    background-color: red;
+    color: black;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,11 +32,35 @@
 }
 
 .Bottom{
-    color: var(--background);
-    background-color: blue;
+    /* color: var(--foreground); */
+    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     flex: 2;
+}
+
+.login, .signup{
+  color: black;
+  background-color: blue;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.login:active,
+.signup:active{
+  opacity: 50%;
+}
+.login{
+  color: black;
+  background-color: blue;
+  /* padding: 10px; */
+}
+
+.signup{
+  color: black;
+  background-color: blue;
+  /* padding: 10px; */
 }
 
